@@ -18,7 +18,7 @@ Video feature extracor for **your own datasets**.
 Download videos from urls and put them in to a directory, such as:
 
 ```python
-python3 video_download.py ./datasets/video_urls \
+python3 ./tools/video_download.py ./datasets/video_urls \
     --video-dir ./datasets/video \
     --video-type 'mp4' \
     --threads 8 \
@@ -29,7 +29,7 @@ python3 video_download.py ./datasets/video_urls \
 Extract frames from video. Such as extract 1 frames per second and using 8 threads:
 
 ```python
-python3 video2frame.py ./datasets/video_list \
+python3 ./tools/video2frame.py ./datasets/video_list \
     --frame-dir ./datasets/frame \
     --fps 1 \
     --threads 8
