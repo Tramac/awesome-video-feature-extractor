@@ -3,7 +3,7 @@ import torch
 import torch.utils.data as data
 
 from abc import ABC
-from video_loader import VideoDataset
+from utils.video_loader import VideoDataset
 
 
 class FeatureExtractor(ABC):
