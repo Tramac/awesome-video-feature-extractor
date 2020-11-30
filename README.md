@@ -50,6 +50,7 @@ python3 main.py \
 ## References
 
 - [pytorch-video-feature-extractor](https://github.com/hobincar/pytorch-video-feature-extractor)
+- [video_features](https://github.com/v-iashin/video_features)
 - [video2frame](https://github.com/jinyu121/video2frame)
 
 <!--
